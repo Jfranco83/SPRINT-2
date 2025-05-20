@@ -2,7 +2,7 @@
 
 
 Este Sprimt es una simulación de una tienda virtual construida con **HTML**, **CSS** y **JavaScript** puros.  
-Fue creado para la correspondiente actividad de aprendizaje.
+Fue creado para la correspondiente actividad de aprendizaje de enyoi Sprit 2.
 
 ## ✨ Funcionalidades
 
