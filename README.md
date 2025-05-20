@@ -13,4 +13,8 @@ Fue creado para la correspondiente actividad de aprendizaje de enyoi Sprit 2.
 - Cálculo automático del total
 - Página de confirmación de compra
 
+## 👨‍💻 Autor
+
+- Jhon Alexander Franco Cruz , Estudiante Desarrollo web Fullstack JavaScript
+
 
