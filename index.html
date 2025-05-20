@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechStore Online</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- barra de navegación ========== -->
+  <header class="header">
+    <div class="header__container">
+      <div class="header__logo">
+        <h1>TechStore Online</h1>
+        <!-- Carrito de compras -->
+<div class="cart-container">
+  <button id="cartButton">
+    🛒 <span id="cartCount">0</span>
+  </button>
+</div>
+
+      </div>
+      <nav class="header__nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#" class="nav__link">Productos</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Contacto</a></li>
+          <li class="nav__item"><a href="/register.html" class="nav__link">Crear cuenta</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- secion del baner -->
+  <section class="banner">
+    <div class="banner__content">
+      <div class="banner__text">
+        <h2 class="banner__title">¡Bienvenido a TechStore Online!</h2>
+        <p class="banner__description">Explora nuestros productos en tecnología, hogar, moda y más.</p>
+        <button class="banner__button">Ver productos</button>
+      </div>
+      <div class="banner__image">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREaISevCmWSEZu9gIbeseNpdEBgTMFlQxsBg&s" alt="tienda tecnologia" />
+      </div>
+    </div>
+  </section>
+
+    <!-- sección donde va el catalogo -->
+  <h2 class="catalog__title">Nuestro Catálogo de Productos</h2>
+
+  <!-- Botones para seleccionar la  categorías -->
+  <div class="catalog__categories">
+    <button class="category-btn" data-category="hogar">Hogar</button>
+    <button class="category-btn" data-category="tecnologia">Tecnología</button>
+    <button class="category-btn" data-category="moda">Moda</button>
+    <button class="category-btn" data-category="salud">Salud</button>
+  </div>
+
+  <!-- Contenedor donde se mostrarán los productos -->
+  <div id="productContainer" class="product-container">
+  </div>
+</section>
+
+<script src="catalog.js"></script>
+      <!-- Aquí se insertarán las tarjetas de productos dinámicamente con JS -->
+    </div>
+  </section>
+
+  <!-- Script para funcionalidades JS-->
+  <script src="app.js"></script>
+  <!-- Modal del carrito -->
+<div id="cartModal" class="cart-modal hidden">
+  <div class="cart-modal__content">
+    <h2>Carrito de Compras</h2>
+    <ul id="cartItems"></ul>
+    <p id="cartTotal">Total: $0</p>
+    <button id="clearCartBtn">Vaciar carrito</button>
+    <button id="checkoutBtn">Confirmar compra</button>
+  </div>
+</div>
+
+<script src="cart.js"></script>
+
+</body>
+
+</html>
